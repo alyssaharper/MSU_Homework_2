@@ -117,7 +117,7 @@ nav a {
     border-bottom: solid var(--darkGrey) ;
 }
 
-footer {
+footer span {
     background-color: var(--darkGrey);
     color: var(--lightBlue);
     font-size: 50px;
