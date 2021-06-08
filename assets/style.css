@@ -83,6 +83,8 @@ nav a {
 .myWork .workbig {
     flex: 1;
     display: block;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: flex-start;
     position: relative;
 }
@@ -90,9 +92,13 @@ nav a {
 .workbig {
     border-style: solid;
     border-width: 5px;
-    width: 1435px;
-    height: 655px;
+    /* width: 1435px;
+    height: 655px; */
     margin: 20px 20px 20px 0px;
+}
+
+.workbig img {
+    width: 100%;
 }
 
 .myWork .worksmall {
@@ -107,8 +113,8 @@ nav a {
 .worksmall {
     border-style: solid;
     border-width: 5px;
-    height: 180px;
-    width: 700px;
+    /* height: 180px;
+    width: 700px; */
     margin: 20px 20px 20px 0px;
 }
 
@@ -152,15 +158,13 @@ footer {
 
 /* reference Advance CSS activity 1 */
 @media screen and (max-width:480px) {
-    #fanpage {
-        border-style: solid;
-        border-width: 5px;
-        max-width: 470px;
-        max-height: 230px;
-        margin: 20px 20px 20px 0px; 
+    .workbig {
+        width: 50%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    
+    .workbig {
+        width: 70%;
+    }
 }
