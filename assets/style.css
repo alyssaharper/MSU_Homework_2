@@ -40,28 +40,63 @@ nav a {
     border-bottom: solid var(--lightBlue) ;
 }
 
-#resume {
+#marginright {
     margin-right: 50px;
+}
+
+.image img {
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 
 .row {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
 }
 
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+.columnleft {
+    width: 10%;
+}
+
+.columnright {
+    width: 90%;
+    padding-left: 10px;
 }
 
 .aboutme, .work, .contactme {
     color: var(--darkGrey);
     font-size: 300%;
     border-right: solid var(--darkGrey) 8px;
+    text-align: right;
+    word-wrap:normal;
+    padding: 8px;
+}
+
+.mywork .worksmall {
+    flex: 4;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.worksmall {
+    border-style: solid;
+    border-width: 5px;
+    height: 120px;
+    width: 500px;
+    margin: 20px;
+}
+
+.mywork .worksmall img {
+    position: relative;
+}
+
+.mywork .worksmall .workinfo {
+    position: absolute;
+    background-color: var(--darkGrey);
+    color: var(--lightBlue);
 }
 
 #contactLinks {
@@ -69,6 +104,7 @@ nav a {
     display: flex;
     justify-content:space-evenly;
     align-items: center;
+    align-content: center;
 }
 
 #contactLinks a {
@@ -79,6 +115,13 @@ nav a {
     text-decoration: none;
     padding: 0 9px 3px 9px;
     border-bottom: solid var(--darkGrey) ;
+}
+
+footer {
+    background-color: var(--darkGrey);
+    color: var(--lightBlue);
+    font-size: 50px;
+    text-align: center;
 }
 
 /* reference Advance CSS activity 1 */
