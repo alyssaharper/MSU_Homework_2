@@ -48,18 +48,21 @@ nav a {
     display: block;
     margin-left: 50%;
     margin-right: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .row {
     display: flex;
+    border-top: solid var(--darkGrey) 5px;
 }
 
 .columnleft {
-    width: 10%;
+    width: 20%;
 }
 
 .columnright {
-    width: 90%;
+    width: 80%;
     padding-left: 10px;
 }
 
@@ -69,12 +72,32 @@ nav a {
     border-right: solid var(--darkGrey) 8px;
     text-align: right;
     word-wrap:normal;
-    padding: 8px;
+    padding:60px 8px 50px 8px;
+    margin: 10px;
+}
+
+.work {
+    padding:60px 8px 1000px 8px;
+}
+
+.myWork .workbig {
+    flex: 1;
+    display: block;
+    align-items: flex-start;
+    position: relative;
+}
+
+.workbig {
+    border-style: solid;
+    border-width: 5px;
+    width: 1435px;
+    height: 655px;
+    margin: 20px 20px 20px 0px;
 }
 
 .myWork .worksmall {
     flex: 4;
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -86,10 +109,10 @@ nav a {
     border-width: 5px;
     height: 180px;
     width: 700px;
-    margin: 20px;
+    margin: 20px 20px 20px 0px;
 }
 
-.myWork .worksmall .workinfo {
+.workinfo {
     position: absolute;
     background-color: var(--darkGrey);
     color: var(--lightBlue);
