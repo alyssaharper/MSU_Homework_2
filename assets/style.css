@@ -118,6 +118,10 @@ nav a {
     margin: 20px 20px 20px 0px;
 }
 
+.worksmall img {
+    width: 100%;
+}
+
 .workinfo {
     position: absolute;
     background-color: var(--darkGrey);
