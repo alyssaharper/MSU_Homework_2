@@ -3,102 +3,108 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="reset" href="./assets/reset.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/style.css"/>
 </head>
 
 <body>
-    <header>
-        <h1 id="myName">Alyssa Harper</h1>
-        <nav>
-            <ul>
-                <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li id="marginright"><a href="#contactme">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
+     <nav class="level">
+         <p class="level-item has-text-centered">
+              <a href="#aboutme" class="link is-info">About Me</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <a href="#work" class="link is-info">Work</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <h1 id="myName">Alyssa Harper</h1>
+            </p>
+            <p class="level-item has-text-centered">
+              <a class="link is-info">Reservations</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <a href="#contactme" class="link is-info">Contact Me</a>
+            </p>
+          </nav>
+       
 
-    <section class="image">
+    <!-- <section class="image">
         <img src="./assets/IMG_9024.jpg" alt="center image" >
-    </section>
+    </section> -->
 
-    <section>
-        <div class="row">
-            <div class="columnleft">
+      
+    <div class="columns">
+            <div class="column is-3">
                 <h2 id="aboutme" class="aboutme">About Me</h2>
             </div>    
-            <div class="columnright">
+            <div class="column is-9">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem non adipisci nobis expedita possimus pariatur, quia error optio omnis magni, accusamus alias, corporis accusantium provident perferendis perspiciatis? Eius, quia rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium veniam, minima neque consectetur at ab vero. Suscipit perferendis sunt ut expedita? Deserunt hic in rem? A tempora ad doloremque iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla maiores cumque cupiditate illo deserunt. Beatae earum, aliquam nobis corrupti molestiae ipsum sequi doloremque vero perferendis itaque animi accusantium commodi quidem.</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis eos aperiam recusandae placeat sint eius perspiciatis distinctio ad reprehenderit, libero voluptatem, quisquam tempora inventore facere, pariatur molestias. Velit, reprehenderit voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur reprehenderit reiciendis esse, molestias, quasi temporibus explicabo beatae in autem officiis mollitia ipsum quisquam qui quia modi nemo, enim adipisci? Delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor molestiae facere nobis! Repudiandae eligendi, repellendus, corrupti dignissimos accusamus quam nulla cum ad, architecto magnam ullam odio. Sint ipsum officiis laboriosam!</p>
             </div>
-        </div>    
-    </section>
+        </div>   
 
-    <section>
-        <div class="row">
-            <div class="columnleft">
-                <h2 id="work" class="work">Work</h2>
-            </div>
-            <div class="columnright">
-                <aside class="myWork">
-                        <div class="workbig">
-                          <a href="https://alyssaharper.github.io/fanpage/"><img id="fanpage" src="./assets/fanpage.jpg" alt="First Project"/></a>
-                            <div class="workinfo">
-                                <h3>Code Refactor</h3>
-                                <p>HTML</p>
-                            </div>
-                        </div>
-                        <div class="worksmall">
-                            <a href="https://www.google.com"><img src="./assets/image-placeholder.jpg" alt="Second Project"/></a>
-                            <div class="workinfo">
-                                <h3>Professional Portfolio</h3>
-                                <p>HTML and CSS</p>
-                            </div>
-                        </div>
-                        <div class="worksmall">
-                          <a href="https://www.google.com"><img src="./assets/image-placeholder.jpg" alt="Third Project"/></a>
-                            <div class="workinfo">
-                                <h3>Password Generator</h3>
-                                <p>HTML, CSS, and Javascript</p>
-                            </div>
-                        </div>
-                        <div class="worksmall">
-                          <a href="https://www.google.com"><img src="./assets/image-placeholder.jpg" alt="Fourth Project"/></a>
-                            <div class="workinfo">
-                                <h3>Code Quiz</h3>
-                                <p>Web APIs</p>
-                            </div>
-                        </div>
-                        <div class="worksmall">
-                            <a href="https://www.google.com"><img src="./assets/image-placeholder.jpg" alt="Fifth Project"/></a>
-                                <div class="workinfo">
-                                    <h3>Day Planner</h3>
-                                    <p>Third-Party APIs</p>
-                                </div>
-                        </div>
-                </aside>
+<div class="columns">
+<div class="column is-3">
+    <h2 id="work" class="work">Work</h2>
+ </div>
+<div class="column is-9">
+    <aside class="myWork">
+         <div class="workbig">
+            <a href="https://alyssaharper.github.io/Marvel-Superhero-Cocktails-Mocktails/"><img id="fanpage" src="./assets/Marvel_Cocktail_Project.png" alt="First Project"/></a>
+            <div class="workinfo">
+                <h3>Marvel Cocktail Generator</h3>
+                <p>HTML, CSS, Javascript, and APIs</p>
             </div>
         </div>
-    </section>
-
-    <section>
-        <div class="row">
-            <div class="columnleft">
-                <h2 id="contactme" class="contactme">Contact Me</h2>
+         <div class="worksmall">
+            <a href="https://www.google.com"><img src="./assets/image-placeholder.jpg" alt="Second Project"/></a>
+            <div class="workinfo">
+                <h3>Professional Portfolio</h3>
+                <p>HTML and CSS</p>
             </div>
-            <div class="columnright">
-                    <ul id="contactLinks">
-                        <li><a href="">586.549.7060</a></li>
-                        <li><a href="mailto:alyssam.harper@yahoo.com">alyssam.harper@yahoo.com</a></li> 
-                        <li><a href="https://github.com/alyssaharper">Github</a></li>
-                    </ul>
-            </div>    
         </div>
-    </section>
+         <div class="worksmall">
+            <a href="https://www.google.com"><img src="./assets/image-placeholder.jpg" alt="Third Project"/></a>
+            <div class="workinfo">
+                <h3>Password Generator</h3>
+                <p>HTML, CSS, and Javascript</p>
+            </div>
+         </div>
+         <div class="worksmall">
+            <a href="https://www.google.com"><img src="./assets/image-placeholder.jpg" alt="Fourth Project"/></a>
+            <div class="workinfo">
+                <h3>Code Quiz</h3>
+                <p>Web APIs</p>
+            </div>
+        </div>
+        <div class="worksmall">
+            <a href="https://www.google.com"><img src="./assets/image-placeholder.jpg" alt="Fifth Project"/></a>
+            <div class="workinfo">
+                <h3>Day Planner</h3>
+                <p>Third-Party APIs</p>
+            </div>
+        </div>
+     </aside>
+</div>
+</div>
+      
+
+<div class="columns">
+    <div class="column is-3">
+        <h2 id="contactme" class="contactme">Contact Me</h2>
+    </div>
+    <div class="column is-9">
+        <ul id="contactLinks">
+            <li><a href="">586.549.7060</a></li>
+            <li><a href="mailto:alyssam.harper@yahoo.com">alyssam.harper@yahoo.com</a></li> 
+            <li><a href="https://github.com/alyssaharper">Github</a></li>
+        </ul>
+    </div>    
+</div>
 
     <footer>
-        <span>❤️ Made by Alyssa Harper ❤️</span>
+        <span class="content has-text-centered">❤️ Made by Alyssa Harper ❤️</span>
     </footer>
+    
 </body>
 
 </html>

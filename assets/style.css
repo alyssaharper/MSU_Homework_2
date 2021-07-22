@@ -3,7 +3,7 @@
     --darkGrey: rgb(85, 76, 85);;
 }
 
-header {
+.level {
     background-color: var(--darkGrey);
     box-sizing: border-box;
     display: flex;
@@ -15,12 +15,14 @@ header {
 h1 {
     border: solid var(--lightBlue);
     background-color: var(--lightBlue);
-    padding-left: 60px;
+    padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 #myName {
     text-align: left;
+    border-radius: 15px;
     font-size: 70px;
     color: var(--darkGrey);
 }
@@ -52,7 +54,7 @@ nav a {
     margin-top: 20px;
 }
 
-.row {
+.columns {
     display: flex;
     border-top: solid var(--darkGrey) 5px;
 }
@@ -127,7 +129,7 @@ nav a {
     background-color: var(--darkGrey);
     color: var(--lightBlue);
     height: 80px;
-    width: 200px;
+    width: 230px;
     bottom: 10px;
     left: 10px;
 }
