@@ -153,19 +153,6 @@ footer {
     box-sizing: border-box;
 }
 
-/* reference Advance CSS activity 1
-@media screen and (max-width:480px) {
-    .workbig {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .workbig {
-        width: 70%;
-    }
-} */
-
 .title {
     color: var(--lightBlue);
 }
@@ -180,4 +167,9 @@ footer {
 
 li {
     display: inline-block;
+}
+
+#photo {
+    padding-left: 25%;
+    padding-top: 15%;
 }
