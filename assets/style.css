@@ -3,6 +3,10 @@
     --darkGrey: rgb(85, 76, 85);;
 }
 
+a {
+    color: var(--lightBlue);
+}
+
 .level {
     background-color: var(--darkGrey);
     box-sizing: border-box;
@@ -120,7 +124,7 @@ nav a {
     background-color: var(--darkGrey);
     color: var(--lightBlue);
     height: 55px;
-    width: 250px;
+    width: 280px;
     bottom: 10px;
     left: 10px;
 }
