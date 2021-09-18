@@ -2,7 +2,7 @@
 
 URL: https://alyssaharper.github.io/Professional-Portfolio/
 
-Screenshot: ![image](https://user-images.githubusercontent.com/84295382/126728193-b72727af-97e9-4cb1-9337-59f3d8f7d2dc.png)
+Screenshot: ![image](https://user-images.githubusercontent.com/84295382/133906347-56d62a82-9214-4255-b1fa-400f616138a4.png)
 
 
 ## Description
@@ -17,5 +17,5 @@ In the "work" section, I have incorporated screenshots of my project and each bo
 
 I have also updated the contact links to include my linkedin and added some icons.
 
-
+The page also contains my resume and a link to my updated github.
 
